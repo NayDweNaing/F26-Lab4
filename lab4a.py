@@ -6,11 +6,14 @@
 # Purpose: Create Simple Functions.
 # Usage: ./lab4a.py
 
-# TO DO 1: Add the docstring
-# @Function definition: add definition here
-# @param: write parameters here
-# @return: write return value here 
+list2 = [1,2,4,5,6,7]
+list1 = [1,3,5,7,9,11]
+def is_even(lista):
+    even=False
+    for i in lista:
+        if i%2 == 0:
+            even=True
+            break
+    return even  
 
-# TO DO 2: define the function with name `is_even`.
-
-# TO DO 3: Call the function `is_even`.
+print(is_even(list2))

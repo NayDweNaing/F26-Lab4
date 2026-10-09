@@ -6,11 +6,13 @@
 # Purpose: Create Some Complex Functions.
 # Usage: ./lab4b.py
 
-# TO DO 1: Add the docstring
-# @Function definition: add definition here
-# @param: write parameters here
-# @return: write return value here
+list = [1,2,3,4,5,6,7,8];
 
-# TO DO 2: Create the function.
+def even_num(list):
+    newlist = [];
+    for i in list:
+        if i%2 == 0:
+            newlist.append(i);
+    print(newlist)
 
-# TO DO 3: Call the function.
+even_num(list)
