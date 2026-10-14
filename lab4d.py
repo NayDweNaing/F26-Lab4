@@ -1,8 +1,8 @@
 # Add comments before you do anything else.
 
 #!/usr/bin/env python3
-# Author:
-# Date:
+# Author: Nay Dwe Naing
+# Date: 14/10/2026
 # Purpose: Create the complete calculator function using default parameters and positional parameters
 # Usage: ./lab4d.py
 
@@ -21,7 +21,10 @@ def compute(a,b,c):
     elif c == "-":
         print("The answer is", a-b);
     elif c == "/":
-        print("The answer is", a/b);
+        if b == 0:
+            print("Error: can't divide by zero");
+        else:
+            print("The answer is", a/b);
     elif c == "+":
         print("The answer is", a+b);
     else:

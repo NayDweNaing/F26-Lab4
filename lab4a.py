@@ -1,8 +1,8 @@
 # Add comments before you do anything else.
 
 #!/usr/bin/env python3
-# Author:
-# Date:
+# Author: Nay Dwe Naing
+# Date: 10/14/2026
 # Purpose: Create Simple Functions.
 # Usage: ./lab4a.py
 
@@ -16,4 +16,5 @@ def is_even(lista):
             break
     return even  
 
+print(is_even(list1))
 print(is_even(list2))
